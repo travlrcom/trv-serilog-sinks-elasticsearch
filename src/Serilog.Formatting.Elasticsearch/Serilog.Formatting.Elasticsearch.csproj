@@ -12,17 +12,18 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <AssemblyName>Serilog.Formatting.Elasticsearch</AssemblyName>
     <AssemblyOriginatorKeyFile>../../assets/Serilog.snk</AssemblyOriginatorKeyFile>
-    <SignAssembly>true</SignAssembly>
+    <SignAssembly>false</SignAssembly>
     <PublicSign>false</PublicSign>
-    <PackageId>Serilog.Formatting.Elasticsearch</PackageId>
+    <PackageId>Travlr.Serilog.Formatting.Elasticsearch</PackageId>
     <PackageTags>serilog;elasticsearch;logging;event;formatting</PackageTags>
     <PackageReleaseNotes>https://github.com/serilog-contrib/serilog-sinks-elasticsearch/blob/master/CHANGES.md</PackageReleaseNotes>
     <PackageIcon>serilog-sink-nuget.png</PackageIcon>
-    <PackageProjectUrl>https://github.com/serilog-contrib/serilog-sinks-elasticsearch</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/travlrcom/trv-serilog-sinks-elasticsearch</PackageProjectUrl>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-    <RepositoryUrl>https://github.com/serilog-contrib/serilog-sinks-elasticsearch</RepositoryUrl>
+    <RepositoryUrl>https://github.com/travlrcom/trv-serilog-sinks-elasticsearch</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <RootNamespace>Serilog.Formatting.ElasticSearch</RootNamespace>
+    <Version>9.0.3</Version>
   </PropertyGroup>
     
   <ItemGroup>
