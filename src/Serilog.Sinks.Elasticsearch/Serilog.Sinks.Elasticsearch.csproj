@@ -22,7 +22,7 @@
     <RepositoryUrl>https://github.com/travlrcom/trv-serilog-sinks-elasticsearch</RepositoryUrl>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <RepositoryType>git</RepositoryType>
-    <Version>9.0.3</Version>
+    <Version>9.0.4</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(TargetFramework)' == 'netstandard2.0' ">
@@ -39,7 +39,7 @@
     <PackageReference Include="Serilog.Formatting.Compact" Version="1.1.0" />
     <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
     <PackageReference Include="Serilog.Sinks.PeriodicBatching" Version="3.1.0" />
-    <PackageReference Include="Elasticsearch.Net" Version="7.17.5" />
+    <PackageReference Include="Elasticsearch.Net" Version="7.12.1" />
   </ItemGroup>
 
   <ItemGroup>
